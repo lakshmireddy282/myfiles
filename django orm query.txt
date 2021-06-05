@@ -1,0 +1,3 @@
+Assume we want to retrieve a single object for a django model called attendee with primary key=7 write down query used in django orm for the same.
+
+>>Attendee.object.get(pk=7)
