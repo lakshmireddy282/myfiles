@@ -1,0 +1,3 @@
+In Windows  start : net start "cronListener"
+             stop : net stop "cronListener"
+             restart: net start "cornListener" && net stop "cornListener"
