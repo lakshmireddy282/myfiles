@@ -1,3 +1,6 @@
 In Windows  start : net start "cronListener"
              stop : net stop "cronListener"
              restart: net start "cornListener" && net stop "cornListener"
+In Linux start: sudo systemctl start cronListener
+                sudo systemctl stop cronlistener
+                sudo systemctl restart cronlistener
