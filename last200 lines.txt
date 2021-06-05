@@ -1,0 +1,3 @@
+Suppose we save logs for a service called cronListener in a file called cron.logs. Write a bash command which reads the last 200 lines of the log file.
+
+tail -n 200 corn.logs 
